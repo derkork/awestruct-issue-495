@@ -25,8 +25,9 @@
 source 'https://rubygems.org'                             # This tells Bundler where to look for gems
 
 gem 'awestruct', :git => 'git://github.com/awestruct/awestruct.git', :branch => 'master'
+#gem 'awestruct', '>= 0.5.6'                               # Goes without saying
 
-# gem 'awestruct', '>= 0.5.6'                               # Goes without saying
+gem 'redcarpet', '~> 3.0.0'                              # markdown inside haml
 gem 'webrick', '~> 1.3.1'                                 # The rack webserver to use in dev mode
 
 gem 'compass'
